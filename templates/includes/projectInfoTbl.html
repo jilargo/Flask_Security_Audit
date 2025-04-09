@@ -1,0 +1,41 @@
+<button class="openDialogBtn" id="openModal">Add Project</button>
+<!-- Modal Structure -->
+<div id="modal" class="modal-container">
+    <div class="modal-box">
+        <span id="closeModal" class="modal-close">&times;</span>
+        <h2 class="modal-title">Add New Project</h2>
+        <form method="POST" class="modal-form">
+            <label class="modal-label">Project Name:</label>
+            <input type="text" name="project_name" class="modal-input" required><br>
+
+            <label class="modal-label">Date Started:</label>
+            <input type="date" name="date_started" class="modal-input" required><br>
+
+            <label class="modal-label">Date Ended:</label>
+            <input type="date" name="date_ended" class="modal-input" required><br>
+
+            <label class="modal-label">Manager Name:</label>
+            <input type="text" name="manager_name" class="modal-input" required><br>
+
+            <button type="submit" class="modal-btn">Add Project</button>
+        </form>
+    </div>
+</div>
+
+
+<div class="table-container">
+    <table>
+        <tr>
+            <th>Project Name</th>
+            <th>Date Started</th>
+            <th>Date Ended</th>
+            <th>Manager Name</th>
+        </tr>
+        <tr>
+            <td>Sandisk</td>
+            <td>2025-03-31</td>
+            <td>2026-03-31</td>
+            <td>Elena Rivera</td>
+        </tr>
+    </table>
+</div>
